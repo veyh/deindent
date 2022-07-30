@@ -66,6 +66,10 @@ void *xclone(void const *ptr, size_t size) {
 }
 
 char *xstrdup(char const *s) {
+  if (s == NULL) {
+    return NULL;
+  }
+
   char *s2 = strdup(s);
 
   if (s2 == NULL) {

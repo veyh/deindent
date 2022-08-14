@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/clibs/commander.git
+	branch = master
+	commit = 57c397c004c8aaf062a205b7dfcb7a6b6200abd8
+	parent = c77033faf91266a70fbec38b890481a355f8df53
+	method = merge
+	cmdver = 0.4.3

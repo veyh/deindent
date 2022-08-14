@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/antirez/sds.git
+	branch = master
+	commit = fb463145c9c245636feb28b5aac0fc897e16f67e
+	parent = c5f7adbaa4b2b3dce917cc0c2bf64f8555039e06
+	method = merge
+	cmdver = 0.4.3

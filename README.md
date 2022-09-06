@@ -17,7 +17,7 @@ Options:
 Example
 
 ```bash
-(cat | deindent) << EOF
+deindent << EOF
   This line is indented by 2 spaces. After deindenting, it will have 0.
     This line is indented by 4 spaces. After deindenting, it will have 2.
 EOF
